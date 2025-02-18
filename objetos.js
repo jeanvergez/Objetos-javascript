@@ -1,12 +1,13 @@
-let Automovil = {
-    marca: "Toyota",
-    modelo: "Corolla",
-    ano: 2021,
-    kilometraje: 15000,
-    ActualizarKilometraje: function(kilometrajeNuevo){
-        this.kilometraje = kilometrajeNuevo;
-        console.log(`${this.marca} ${this.modelo} ahora tiene ${kilometrajeNuevo} kilómetros`);
-    }
+let Jugador = {
+nombre: "Lucas",
+edad: 20,
+equipo: "Oklahoma",
+PuntosporPartido: 40,
+ ActualizarPuntos: function(PuntosNuevos){
+    this.PuntosporPartido = PuntosNuevos
+    console.log(`${this.nombre} ahora tiene ${PuntosNuevos}`)
+ }
+
 }
 
-Automovil.ActualizarKilometraje(20000);
+Jugador.ActualizarPuntos(78)
